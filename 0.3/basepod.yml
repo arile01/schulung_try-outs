@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+#metadata:
+#  name: busyboxariane
+spec:
+  containers:
+  - name: busyboxcontainer
+    image: busybox:1.37
+    tty: true
+    ports:
+    - containerPort: 80
